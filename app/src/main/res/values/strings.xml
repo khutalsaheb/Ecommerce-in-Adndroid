@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Ecomm</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_home">HOME</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_mobile">Mobile Number</string>
+    <string name="prompt_password">Password</string>
+    <string name="already_account">Already account ?</string>
+    <string name="prompt_otp">Enter OTP</string>
+    <string name="cprompt_password">Confirm Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_up">Login</string>
+    <string name="action_reset_password">Reset Password</string>
+    <string name="action_forgot_password">Forgot Password ?</string>
+    <string name="action_not_registered">Not Registered ?</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+    <string name="_20dp">20dp</string>
+    <string name="name">Full Name</string>
+    <string name="old_password">Old Password</string>
+    <string name="update">Update</string>
+    <string name="billing_address">Billing Address</string>
+    <string name="billing_state">Billing State</string>
+    <string name="billing_city">Billing City</string>
+    <string name="title_activity_details_products">Products Details</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"</string>
+    <string name="Rs">\u20B9</string>
+    <string name="number_order">Number of order : </string>
+    <string name="order">Order</string>
+
+    <string name="alert">Failed to Connect Internet.Please Try Again…</string>
+
+
+    <string name="title_activity_person_details">Details</string>
+    <string name="person_name_hint">Enter Name</string>
+    <string name="person_email_hint">Enter E-mail</string>
+    <string name="perosn_address_hint">Enter Address</string>
+    <string name="person_age_hint">Enter Age</string>
+
+    <string name="person_id">ID : %1$s</string>
+    <string name="person_name">Product Name : %1$s</string>
+    <string name="person_email"> Product Quantity (items) : %1$s</string>
+    <string name="person_address">Product Price Rs.: %1$s</string>
+    <string name="person_age">Total Amount Rs: %1$s</string>
+
+
+    <!--checkout menu-->
+    <string name="checkout_your_name">Your Name</string>
+    <string name="checkout_address">Your Delivery Address</string>
+    <string name="checkout_city">Your Delivery City</string>
+    <string name="checkout_province">Your Delivery Province</string>
+    <string name="checkout_email">Your Email</string>
+    <string name="checkout_set_date">Set Date</string>
+    <string name="checkout_set_time">Set Time</string>
+    <string name="checkout_phone_number">Phone Number</string>
+    <string name="checkout_order_list">Order List</string>
+    <string name="checkout_add_comment">Comment (Optional)</string>
+    <string name="checkout_send_order">Send</string>
+    <string name="form_alert">Please, complete the form first.</string>
+    <string name="sending_alert">Sending data. Please wait &#8230;</string>
+    <string name="ok_alert">Your Order has been successfully sent.</string>
+    <string name="failed_alert">Your Order has not been sent.</string>
+    <string name="order_alert">You have not ordered yet</string>
+    <string name="no_order_menu">No order</string>
+
+    <string name="shipping_list_1">Free Shipping</string>
+    <string name="shipping_list_2">Cash On Delivery</string>
+    <string name="shipping_list_3">POS Indonesia</string>
+    <string name="shipping_list_4">JNE</string>
+
+    <string-array name="shipping_array">
+        <item>@string/shipping_list_1</item>
+        <item>@string/shipping_list_2</item>
+        <item>@string/shipping_list_3</item>
+        <item>@string/shipping_list_4</item>
+    </string-array>
+
+
+</resources>

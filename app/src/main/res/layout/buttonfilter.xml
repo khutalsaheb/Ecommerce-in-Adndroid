@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom|end|center_horizontal"
+    android:padding="@dimen/_4dp"
+    android:weightSum="2">
+
+    <Button
+        android:id="@+id/sort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/_4dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:text="sort"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:text="filter"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+</LinearLayout>

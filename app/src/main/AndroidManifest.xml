@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sudnya.ecomm">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />-->
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activity.MainActivity"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.HomeScreenActivity"
+            android:label="@string/title_activity_home_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:label="Login"
+            android:parentActivityName=".Activity.HomeScreenActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.RegisterActivity" />
+        </activity>
+        <activity
+            android:name=".Activity.RegisterActivity"
+            android:label="Register"
+            android:parentActivityName=".Activity.HomeScreenActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.HomeScreenActivity" />
+        </activity>
+        <activity android:name=".Activity.Forgot_PasswordActivity" />
+        <activity
+            android:name=".Activity.ProfileActivity"
+            android:label="PROFILE"
+            android:parentActivityName=".Activity.HomeScreenActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.HomeScreenActivity" />
+        </activity>
+        <activity
+            android:name=".Activity.Details_Products"
+            android:label="@string/title_activity_details_products"
+            android:parentActivityName=".Activity.SubCatagoryActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sudnya.ecomm.Activity.SubCatagoryActivity" />
+        </activity>
+        <activity
+            android:name=".Activity.SubCatagoryActivity"
+            android:label="SHOP HERE"
+            android:parentActivityName=".Activity.HomeScreenActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.HomeScreenActivity" />
+        </activity>
+        <activity
+            android:name=".Activity.SearchActivity"
+            android:label="SEARCH PRODUCT"
+            android:parentActivityName=".Activity.HomeScreenActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.HomeScreenActivity" />
+        </activity>
+
+        <activity
+            android:name=".Databases.CartActivity"
+            android:label="Your Cart"
+            android:parentActivityName=".Activity.HomeScreenActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.HomeScreenActivity" />
+        </activity>
+        <activity
+            android:name=".Databases.ActActivity"
+            android:label="Your Cart"
+            android:parentActivityName=".Databases.CartActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Databases.CartActivity" />
+        </activity>
+        <activity
+            android:name=".Activity.ActivityCheckout"
+            android:label="Checkout"
+            android:parentActivityName=".Activity.HomeScreenActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.HomeScreenActivity" />
+        </activity>
+        <activity
+            android:name=".Activity.TodayDeal"
+            android:label="Todays Deal"
+            android:parentActivityName=".Activity.HomeScreenActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.HomeScreenActivity" />
+        </activity>
+
+    </application>
+
+</manifest>
